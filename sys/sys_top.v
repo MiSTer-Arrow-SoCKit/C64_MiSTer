@@ -1092,7 +1092,7 @@ aud_mix_top audmix_r
 );
 
 wire spdif;
-audio_out audio_out
+/*audio_out audio_out
 (
 	.reset(reset),
 	.clk(clk_audio),
@@ -1107,7 +1107,7 @@ audio_out audio_out
 	.dac_r(anr),
 `endif
 	.spdif(spdif)
-);
+);*/
 
 wire [28:0] aram_address;
 wire  [7:0] aram_burstcount;
